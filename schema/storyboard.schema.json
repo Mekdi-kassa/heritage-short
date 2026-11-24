@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HeritageShortStoryboard",
+  "description": "Validation schema for The Heritage Short multi-model AI filmmaking pipeline contract.",
+  "type": "object",
+  "required": [
+    "title",
+    "version",
+    "logline",
+    "language",
+    "target_duration_seconds",
+    "aspect_ratios",
+    "style_block",
+    "character_sheets",
+    "music_theme",
+    "shots"
+  ],
+  "properties": {
+    "title": { "type": "string" },
+    "version": { "type": "string" },
+    "logline": { "type": "string" },
+    "language": { "type": "string" },
+    "target_duration_seconds": { "type": "number", "minimum": 60, "maximum": 90 },
+    "aspect_ratios": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["16:9", "9:16"] },
+      "minItems": 2
+    },
+    "style_block": {
+      "type": "object",
+      "required": ["visual_style", "lighting", "color_palette", "cinematography"],
+      "properties": {
+        "visual_style": { "type": "string" },
+        "lighting": { "type": "string" },
+        "color_palette": { "type": "string" },
+        "cinematography": { "type": "string" }
+      }
+    },
+    "character_sheets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "age", "description", "reference_prompt"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "age": { "type": "string" },
+          "description": { "type": "string" },
+          "reference_prompt": { "type": "string" }
+        }
+      }
+    },
+    "music_theme": {
+      "type": "object",
+      "required": ["genre", "scale", "tempo_bpm", "key", "instrumentation", "ace_step_caption"],
+      "properties": {
+        "genre": { "type": "string" },
+        "scale": { "type": "string" },
+        "tempo_bpm": { "type": "integer" },
+        "key": { "type": "string" },
+        "instrumentation": { "type": "string" },
+        "ace_step_caption": { "type": "string" }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 14,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "shot_number",
+          "shot_type",
+          "duration_seconds",
+          "camera_motion",
+          "visual_prompt",
+          "motion_prompt",
+          "character_ref",
+          "narration",
+          "music_cue",
+          "reason"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "shot_number": { "type": "integer" },
+          "shot_type": { "type": "string" },
+          "duration_seconds": { "type": "number", "minimum": 2, "maximum": 15 },
+          "camera_motion": { "type": "string" },
+          "visual_prompt": { "type": "string" },
+          "motion_prompt": { "type": "string" },
+          "character_ref": { "type": "string" },
+          "narration": {
+            "type": "object",
+            "required": ["amharic", "english_subtitle", "voice_style"],
+            "properties": {
+              "amharic": { "type": "string" },
+              "english_subtitle": { "type": "string" },
+              "voice_style": { "type": "string" }
+            }
+          },
+          "music_cue": {
+            "type": "object",
+            "required": ["mood", "intensity", "ducking_db"],
+            "properties": {
+              "mood": { "type": "string" },
+              "intensity": { "type": "string" },
+              "ducking_db": { "type": "number" }
+            }
+          },
+          "reason": { "type": "string" }
+        }
+      }
+    }
+  }
+}

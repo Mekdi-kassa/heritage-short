@@ -1,0 +1,257 @@
+{
+  "title": "የደሴው ሬዲዮ ጠጋኝ (The Radio Craftsman of Dessie)",
+  "version": "1.0.0",
+  "logline": "In the misty highlands of Dessie, a young boy learns that broken radios and broken days can be mended with patience, copper wire, and an attentive ear—a lesson in craftsmanship that bridges generations.",
+  "language": "am",
+  "target_duration_seconds": 75.0,
+  "aspect_ratios": ["16:9", "9:16"],
+  "style_block": {
+    "visual_style": "Cinematic heritage photography, 35mm film grain, rich earth tones, warm tungsten glow, Kodachrome vintage aesthetic",
+    "lighting": "Golden hour morning light filtering through wooden shutters, soft chiaroscuro volumetric dust motes, warm amber tube filament glow",
+    "color_palette": "Deep ochre, terracotta, highland eucalyptus green, weathered mahogany, burnished copper, warm glowing amber",
+    "cinematography": "Gentle fluid camera movement, shallow depth of field, 50mm and 85mm prime lens perspective, centered subjects for dual 16:9 and 9:16 safe areas"
+  },
+  "character_sheets": [
+    {
+      "id": "girma_young",
+      "name": "Young Girma (Age 10)",
+      "age": "10 years old",
+      "description": "Ethiopian highland boy, 10 years old, wide curious dark eyes, short cropped black hair, wearing a warm handwoven cream Gabi shawl over a dark woolen vest, expressive hands carrying small tools",
+      "reference_prompt": "Portrait of a 10-year-old Ethiopian boy in 1978 Dessie highlands, wide observant dark brown eyes, handwoven off-white cotton gabi draped over shoulders, warm morning light, cinematic vintage film look, shallow depth of field"
+    },
+    {
+      "id": "girma_elder",
+      "name": "Elder Girma (Age 58)",
+      "age": "58 years old",
+      "description": "Distinguished Ethiopian elder craftsman and mentor, silver-streaked hair, kind laugh lines around eyes, wearing modern linen shirt under traditional knitted vest, serene wisdom in expression",
+      "reference_prompt": "Portrait of a 58-year-old Ethiopian man with gentle smiling eyes, silver-dusted hair, wearing a dark olive linen cardigan, warm study room background with books and electronics, natural soft portrait lighting"
+    },
+    {
+      "id": "grandfather_assefa",
+      "name": "Grandfather Assefa",
+      "age": "72 years old",
+      "description": "Venerable Ethiopian patriarch, flowing white beard, wearing white netela and round horn-rimmed reading glasses, dignified posture sitting by wooden window",
+      "reference_prompt": "Venerable elderly Ethiopian grandfather with neat white beard, round glasses, draped in clean white netela cloth, seated near rustic window overlooking misty green hills, soft natural backlight"
+    }
+  ],
+  "music_theme": {
+    "genre": "Ethiopian Traditional Contemporary Ambient",
+    "scale": "Tizita Minor (ትዝታ)",
+    "tempo_bpm": 68,
+    "key": "E minor",
+    "instrumentation": "Solo masenqo (one-string bowed lute), gentle acoustic krar plucks, warm atmospheric cello drone, soft bamboo washint flutes",
+    "ace_step_caption": "Slow melancholic traditional Ethiopian Tizita melody, solo acoustic masenqo bowed strings, gentle contemplative krar harp plucks, warm low cello drone, authentic nostalgic atmosphere, 68 BPM, instrumental, room acoustics, cinematic score"
+  },
+  "shots": [
+    {
+      "id": "shot_01",
+      "shot_number": 1,
+      "shot_type": "Extreme wide establishing shot",
+      "duration_seconds": 7.5,
+      "camera_motion": "Slow forward aerial dolly over mist-veiled hills towards cobblestone streets",
+      "visual_prompt": "Extreme wide cinematic establishing view of Dessie Ethiopia in early morning mist, rolling green Wollo mountains, tin and stone rooftops glowing under golden sunrise, woodsmoke drifting gently into crisp highland air, Kodak 35mm grain",
+      "motion_prompt": "Slow smooth push-in camera through drifting morning fog over mountain valley, distant chimney smoke curling upward",
+      "character_ref": "none",
+      "narration": {
+        "amharic": "ደሴ ላይ ንጋት የሚጀምረው በጭጋግ እና በቡና ሽታ ብቻ አልነበረም፤ በመንደሩ የሬዲዮ ድምፅ ጭምር እንጂ።",
+        "english_subtitle": "Dawn in Dessie did not just begin with mist and roasted coffee; it began with the village radio.",
+        "voice_style": "Warm, contemplative, measured elder storytelling voice"
+      },
+      "music_cue": {
+        "mood": "Evocative opening, solo masenqo establishing the Tizita motif",
+        "intensity": "low",
+        "ducking_db": -6.0
+      },
+      "reason": "Establishes geographical place, era, and emotional atmosphere of the Wollo highlands before introducing the characters."
+    },
+    {
+      "id": "shot_02",
+      "shot_number": 2,
+      "shot_type": "Medium shot",
+      "duration_seconds": 7.0,
+      "camera_motion": "Slow tilt down from rustic mud-plaster wall to mahogany sideboard",
+      "visual_prompt": "Medium interior shot of a vintage 1970s Philips valve radio resting on a polished mahogany side table, silent wooden dial, brass speaker grille covered in slight dust, golden window light illuminating dust motes",
+      "motion_prompt": "Gentle tilt down and slow subtle zoom on dusty vintage radio, dust motes floating slowly in golden sunlight beam",
+      "character_ref": "none",
+      "narration": {
+        "amharic": "አባቴ ጊርማ የስምንት ዓመት ልጅ እያለ፣ ያ ትልቅ የእንጨት ሬዲዮ የቤቱ ልብ ነበር።",
+        "english_subtitle": "When my father Girma was eight, that grand wooden radio was the beating heart of our home.",
+        "voice_style": "Nostalgic, gentle, affectionate"
+      },
+      "music_cue": {
+        "mood": "Subtle krar plucks join the masenqo drone",
+        "intensity": "low-medium",
+        "ducking_db": -8.0
+      },
+      "reason": "Introduces the central artifact of the story—the family radio—and frames it as the emotional center of the household."
+    },
+    {
+      "id": "shot_03",
+      "shot_number": 3,
+      "shot_type": "Medium close-up",
+      "duration_seconds": 7.5,
+      "camera_motion": "Static locked-off camera with slight handheld breath",
+      "visual_prompt": "Medium close-up of Grandfather Assefa sitting by the window in white netela, turning the brass radio knob with wrinkled weathered fingers, hearing only cold crackling static, disappointment and quiet concern in his aged eyes",
+      "motion_prompt": "Wrinkled fingers gently turn brass dial knob back and forth, grandfather shakes head softly with slight sigh",
+      "character_ref": "grandfather_assefa",
+      "narration": {
+        "amharic": "አንድ ቀን ምሽት ግን ዜናው ጠፋ። ሬዲዮው ዝም አለ፤ አያቴም በፀጥታው ውስጥ ረጅም የሃሳብ ትንፋሽ ተነፈሰ።",
+        "english_subtitle": "One evening, the broadcast vanished. The radio fell silent; grandfather breathed a heavy sigh into the stillness.",
+        "voice_style": "Somber, quiet, poignant pause"
+      },
+      "music_cue": {
+        "mood": "Music thins to a faint sustained cello note, underscoring silence and loss",
+        "intensity": "low",
+        "ducking_db": -10.0
+      },
+      "reason": "Inciting incident: the radio breaks, breaking the routine and leaving grandfather isolated from the outside world."
+    },
+    {
+      "id": "shot_04",
+      "shot_number": 4,
+      "shot_type": "Close-up",
+      "duration_seconds": 7.5,
+      "camera_motion": "Slow low-angle push-in toward child's face",
+      "visual_prompt": "Close-up of young 10-year-old Girma peeking behind the wooden radio cabinet, curious wide brown eyes illuminated by warm amber glow of glass vacuum tubes, fascinated expression, dark woolen vest",
+      "motion_prompt": "Child peeks around wooden cabinet edge, eyes widening in wonder as warm amber light reflects on his cheeks",
+      "character_ref": "girma_young",
+      "narration": {
+        "amharic": "ግን ጊርማ ዝምታውን እንደ ፍፃሜ ሳይሆን እንደ ሚስጥር ነበር የተመለከተው።",
+        "english_subtitle": "Yet young Girma did not view silence as an ending, but as an invitation into a secret.",
+        "voice_style": "Intrigued, spark of curiosity and wonder"
+      },
+      "music_cue": {
+        "mood": "A bright high krar harmonic note rings out, signaling discovery",
+        "intensity": "medium",
+        "ducking_db": -7.0
+      },
+      "reason": "Shifts perspective to the boy's curiosity; reveals the internal glowing tubes and shifts mood from grief to wonder."
+    },
+    {
+      "id": "shot_05",
+      "shot_number": 5,
+      "shot_type": "Macro insert shot",
+      "duration_seconds": 7.0,
+      "camera_motion": "Extreme slow lateral tracking across electronic chassis",
+      "visual_prompt": "Extreme macro close-up of vacuum tubes, coiled red copper inductors, ceramic capacitors, and a snapped thin copper wire resting loose against chassis, warm tungsten illumination, cinematic depth of field",
+      "motion_prompt": "Micro camera tracks slowly across glowing glass tube filaments and coiled copper wires, thin curl of rosin smoke rises gently",
+      "character_ref": "none",
+      "narration": {
+        "amharic": "በመስታወት አምፑሎች እና በተጠላለፉ የመዳብ ሽቦዎች መሃል የተበጠሰች ትንሽ ክር አገኘ።",
+        "english_subtitle": "Amidst glowing glass bulbs and tangled copper coils, he found a single severed wire.",
+        "voice_style": "Precise, focused, discovery moment"
+      },
+      "music_cue": {
+        "mood": "Rhythmic plucked pattern begins, tension of problem solving",
+        "intensity": "medium",
+        "ducking_db": -8.0
+      },
+      "reason": "Diagnostic beat: demonstrates the engineer's eye spotting the single broken link that caused the entire system failure."
+    },
+    {
+      "id": "shot_06",
+      "shot_number": 6,
+      "shot_type": "Medium close-up",
+      "duration_seconds": 8.0,
+      "camera_motion": "Slow steady push-in on child's hands and face",
+      "visual_prompt": "Medium close-up of young Girma at a wooden workbench, carefully holding a hand-heated copper soldering iron, steady small hands touching solder to wire, tiny curl of fragrant rosin smoke rising, intense concentration on his brow",
+      "motion_prompt": "Young boy carefully lowers soldering iron tip, molten silver droplet flows cleanly onto copper joint, breath held in focus",
+      "character_ref": "girma_young",
+      "narration": {
+        "amharic": "ያለ ትምህርት ቤት፣ ያለ ዲፕሎማ፤ በትዕግስት እና በእጅ ንፅህና ብቻ ሽቦዎቹን በሙቀት አጋጠማቸው።",
+        "english_subtitle": "Without school, without a diploma; with pure patience and steady hands, he bonded the wires with heat.",
+        "voice_style": "Reverent, emphasizing patience and innate craft"
+      },
+      "music_cue": {
+        "mood": "Masenqo and washint flute intertwine in a building crescendo",
+        "intensity": "medium-high",
+        "ducking_db": -7.5
+      },
+      "reason": "Core climax of action: the physical act of mending, celebrating indigenous problem-solving and youthful determination."
+    },
+    {
+      "id": "shot_07",
+      "shot_number": 7,
+      "shot_type": "Close-up",
+      "duration_seconds": 7.5,
+      "camera_motion": "Dynamic snap focus from hand to backlit amber speaker cloth",
+      "visual_prompt": "Close-up of young Girma's index finger gently turning the bakelite tuning dial, backlight glowing behind the fabric grille, needle sliding across printed station names Dessie, Addis Ababa, Harar",
+      "motion_prompt": "Hand rotates dial knob, station needle slides steadily along glass scale, sudden vibration in speaker cloth",
+      "character_ref": "girma_young",
+      "narration": {
+        "amharic": "ቁልፉ ሲዞር… ድንገት ፍንጣቂ ድምፅ ተሰማ፣ ከዚያም ያ ናፍቆት የነበረው የጥላሁን ዘፈን ክፍሉን ሞላው!",
+        "english_subtitle": "With one turn of the dial… static burst into music, and Tilahun's beloved song filled the room!",
+        "voice_style": "Joyful, triumphant, vibrant energy"
+      },
+      "music_cue": {
+        "mood": "Triumphant full burst of traditional Ethiopian pentatonic harmony",
+        "intensity": "high",
+        "ducking_db": -5.0
+      },
+      "reason": "The catharsis and payoff: sound returns to the home, proving the boy's diagnosis and repair were successful."
+    },
+    {
+      "id": "shot_08",
+      "shot_number": 8,
+      "shot_type": "Medium two-shot",
+      "duration_seconds": 8.0,
+      "camera_motion": "Slow gentle dolly out revealing both figures in golden room light",
+      "visual_prompt": "Warm medium two-shot in rustic living room: Grandfather Assefa laughing with moist joyful eyes, placing a weathered loving hand on young Girma's shoulder, young Girma looking up with modest pride, glowing radio singing between them",
+      "motion_prompt": "Grandfather smiles warmly and pats boy's shoulder in deep affection, boy beams with quiet pride",
+      "character_ref": "grandfather_assefa",
+      "narration": {
+        "amharic": "አያቴ ጊርማን አቅፎ እንዲህ አለው፡ 'የተሰበረውን ነገር በጨዋ እጅ የነካ ሰው፣ ሰዎችንም ማዳመጥ ያውቃል'።",
+        "english_subtitle": "Grandfather embraced Girma and said: 'He who mends what is broken with gentle hands learns how to listen to the world.'",
+        "voice_style": "Warm, emotional, wise parental benediction"
+      },
+      "music_cue": {
+        "mood": "Warm resonant strings, deeply emotional and gentle",
+        "intensity": "medium",
+        "ducking_db": -8.5
+      },
+      "reason": "Emotional climax: the philosophical heart of the film. The grandfather's blessing anchors technical skill to human empathy."
+    },
+    {
+      "id": "shot_09",
+      "shot_number": 9,
+      "shot_type": "Medium shot with temporal match-cut",
+      "duration_seconds": 7.5,
+      "camera_motion": "Slow lateral pan from restored vintage radio on shelf to modern laptop displaying code pipeline",
+      "visual_prompt": "Modern warm study room in 2026: Elder Girma at 58 with silver hair smiling gently, standing beside his daughter/grandson at a laptop displaying terminal code and neural model diagrams, original 1970s radio proudly resting on bookshelf behind them",
+      "motion_prompt": "Elder Girma leans over laptop with warm reassuring smile, terminal screen displays flowing green pipeline logs, camera glides smoothly",
+      "character_ref": "girma_elder",
+      "narration": {
+        "amharic": "ዛሬ እኛም በኮምፒውተር የምንገነባው የሞዴል ቧንቧ፤ ያኔ አባቴ በደሴ ካገናኘው የመዳብ ሽቦ ፈፅሞ አይለይም።",
+        "english_subtitle": "Today, the neural pipelines we craft in code are no different from the copper wires my father soldered in Dessie.",
+        "voice_style": "Inspirational, contemporary, bridging generations"
+      },
+      "music_cue": {
+        "mood": "Modern synthesizer pad blends seamlessly under traditional masenqo, bridging past and future",
+        "intensity": "medium",
+        "ducking_db": -7.0
+      },
+      "reason": "The thematic bridge: connects the analog physical craftsmanship of 1978 Dessie directly to modern AI engineering in 2026."
+    },
+    {
+      "id": "shot_10",
+      "shot_number": 10,
+      "shot_type": "Centred title graphic / End card",
+      "duration_seconds": 7.5,
+      "camera_motion": "Static slow luminous pulse on typography",
+      "visual_prompt": "Cinematic dark ochre textured end card, elegant centered typography in gold and white: 'የደሴው ሬዲዮ ጠጋኝ - The Radio Craftsman of Dessie'. Subtitle: 'Crafted with AI: Gemini 3.8 Flash, Wan 2.2, ACE-Step 1.5, FFmpeg'. Small emblem of traditional masenqo and neural graph, pristine cinematic finish",
+      "motion_prompt": "Subtle luminous shimmer across golden text, slow fade to gentle warm black vignette",
+      "character_ref": "none",
+      "narration": {
+        "amharic": "የጥበብ ውርስ ይቀጥላል። ይሄ ፊልም በሰው ራዕይ እና በአርቴፊሻል ኢንተለጀንስ ታግዞ የተሰራ ነው።",
+        "english_subtitle": "The legacy of craft endures. Crafted with human vision and Artificial Intelligence.",
+        "voice_style": "Final resonant concluding statement"
+      },
+      "music_cue": {
+        "mood": "Final resolved Tizita chord with soft masenqo tail decaying into silence",
+        "intensity": "medium fading to silence",
+        "ducking_db": -6.0
+      },
+      "reason": "AI transparency end card required by assignment guidelines, providing formal attribution, consent closure, and final artistic resolution."
+    }
+  ]
+}

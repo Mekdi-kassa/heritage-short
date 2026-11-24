@@ -1,0 +1,40 @@
+1
+00:00:00,200 --> 00:00:07,300
+Dawn in Dessie did not just begin with mist and roasted coffee; it began with the village radio.
+
+2
+00:00:07,700 --> 00:00:14,300
+When my father Girma was eight, that grand wooden radio was the beating heart of our home.
+
+3
+00:00:14,700 --> 00:00:21,800
+One evening, the broadcast vanished. The radio fell silent; grandfather breathed a heavy sigh into the stillness.
+
+4
+00:00:22,200 --> 00:00:29,300
+Yet young Girma did not view silence as an ending, but as an invitation into a secret.
+
+5
+00:00:29,700 --> 00:00:36,300
+Amidst glowing glass bulbs and tangled copper coils, he found a single severed wire.
+
+6
+00:00:36,700 --> 00:00:44,300
+Without school, without a diploma; with pure patience and steady hands, he bonded the wires with heat.
+
+7
+00:00:44,700 --> 00:00:51,800
+With one turn of the dial… static burst into music, and Tilahun's beloved song filled the room!
+
+8
+00:00:52,200 --> 00:00:59,800
+Grandfather embraced Girma and said: 'He who mends what is broken with gentle hands learns how to listen to the world.'
+
+9
+00:01:00,200 --> 00:01:07,300
+Today, the neural pipelines we craft in code are no different from the copper wires my father soldered in Dessie.
+
+10
+00:01:07,700 --> 00:01:14,800
+The legacy of craft endures. Crafted with human vision and Artificial Intelligence.
+
