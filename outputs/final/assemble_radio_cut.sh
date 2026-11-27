@@ -1,1 +1,1 @@
-ffmpeg -y -f lavfi -i color=c=black:s=1280x720:d=75.0 -i '/Users/mac/Desktop/tenx/outputs/audio/narration_full_track.wav' -c:v libx264 -c:a aac '/Users/mac/Desktop/tenx/outputs/final/radio_cut.mp4'
+'/Users/mac/Downloads/ffmpeg 2' -y -f lavfi -i color=c=black:s=1280x720:d=75.0 -i '/Users/mac/Desktop/tenx/outputs/audio/narration_full_track.wav' -c:v libx264 -c:a aac '/Users/mac/Desktop/tenx/outputs/final/radio_cut.mp4'
